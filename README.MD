@@ -8,10 +8,11 @@ Play on PC keyboard(s) as on real synthesizer.
 
 ### Building
 Just run:
-	make build
+	`make build`
 
 ### Usage
 Run `./keyboard_synthesizer` and input session parameters:
+```
 	=== SETUP SESSION ===
 	Enter MIDI port ID: <MIDI port>
 	Enter base octave [0-10]: <octave>
@@ -23,6 +24,7 @@ Run `./keyboard_synthesizer` and input session parameters:
 		Enter octave offset [-3-7]: <offset>
 		Enter dev event path: <path to event device (ex. /dev/input/event0)>
 	...
+```
 
 P. S. Channel 0 always working with sustain.
 
